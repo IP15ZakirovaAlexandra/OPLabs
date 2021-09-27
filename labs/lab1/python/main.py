@@ -1,0 +1,10 @@
+print ("you have a system of linear equations:\n a1*x + b1*y = c1;\n a2*x + b2*y = c2;")
+a1 = float(input('Write the first coefficient(a1): '))
+b1 = float(input('Write the first coefficient(b1): '))
+a2 = float(input('Write the first coefficient(a2): '))
+b2 = float(input('Write the first coefficient(b1): '))
+c1 = float(input('Write the first coefficient(c1): '))
+c2 = float(input('Write the first coefficient(c2): '))
+y: float = (c2-(c1*a2))/(b2*a1-b1*a2)
+x: float = (c1-b1*y)/a1
+print (' x =', x, '\n', 'y =', y)
