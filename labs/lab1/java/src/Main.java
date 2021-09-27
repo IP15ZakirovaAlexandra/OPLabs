@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println( "you have a system of linear equations : ");
+        System.out.println( "you have a system of linear equations: ");
         System.out.println("a1*x + b1*y = c1;");
         System.out.println("a2*x + b2*y = c2;");
         double a1;
