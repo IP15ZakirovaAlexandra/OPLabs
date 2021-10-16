@@ -13,8 +13,8 @@ long chislitel(int k, int x) {
     return m;
 }
 
-long znamenatel(int k) {
-    long factorial = 1;
+long long znamenatel(int k) {
+    long long factorial = 1;
     for (int i = 1; i <= (2 * k); i++) {
         factorial = factorial * i;
     }
@@ -35,3 +35,4 @@ int main() {
     }
     return 0;
 }
+
