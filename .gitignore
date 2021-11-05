@@ -3,3 +3,4 @@
 **/CMakeLists.txt
 **/java/out/**
 **/java/**/*.iml
+**/out/**
